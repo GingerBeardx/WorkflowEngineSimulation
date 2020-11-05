@@ -7,6 +7,7 @@ namespace WorkflowEngineSimulation
         static void Main(string[] args)
         {
             var workflow = new WorkflowEngine();
+            workflow.Run();
         }
     }
 }

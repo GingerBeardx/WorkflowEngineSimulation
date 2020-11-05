@@ -6,9 +6,14 @@ namespace WorkflowEngineSimulation
 {
     class WorkflowEngine
     {
-        public List<IActivity> Activities { get; set; } = new List<IActivity>();
+        private List<IActivity> Activities { get; set; } = new List<IActivity>();
 
         public WorkflowEngine()
+        {
+            
+        }
+
+        public void Run()
         {
             Activities.Add(new VideoUpload("My First Video", 15));
             Activities.Add(new VideoEncoder("My first video", "Standard"));
