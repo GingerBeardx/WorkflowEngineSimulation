@@ -19,8 +19,7 @@ namespace WorkflowEngineSimulation
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Video encoding begun");
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Video encoding complete");
+            Console.ForegroundColor = ConsoleColor.Gray;
         }
     }
 }
